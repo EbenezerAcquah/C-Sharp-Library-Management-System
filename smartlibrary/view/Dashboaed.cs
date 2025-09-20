@@ -48,6 +48,10 @@ namespace smartlibrary.view
               MainClass.con.Close();
             //con.Close();
         }
-       
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

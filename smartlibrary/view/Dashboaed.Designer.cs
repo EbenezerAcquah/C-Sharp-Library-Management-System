@@ -35,26 +35,27 @@ namespace smartlibrary.view
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtBooks = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.txtAvailable = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtBorrowed = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtAvailable = new System.Windows.Forms.Label();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Green;
+            this.guna2Panel1.BorderRadius = 50;
             this.guna2Panel1.Controls.Add(this.txtReader);
             this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Location = new System.Drawing.Point(54, 74);
+            this.guna2Panel1.Location = new System.Drawing.Point(162, 38);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(200, 144);
+            this.guna2Panel1.Size = new System.Drawing.Size(200, 169);
             this.guna2Panel1.TabIndex = 0;
             // 
             // txtReader
@@ -84,9 +85,9 @@ namespace smartlibrary.view
             this.guna2Panel2.BackColor = System.Drawing.Color.Green;
             this.guna2Panel2.Controls.Add(this.txtBooks);
             this.guna2Panel2.Controls.Add(this.label2);
-            this.guna2Panel2.Location = new System.Drawing.Point(302, 74);
+            this.guna2Panel2.Location = new System.Drawing.Point(162, 243);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(200, 144);
+            this.guna2Panel2.Size = new System.Drawing.Size(200, 165);
             this.guna2Panel2.TabIndex = 0;
             // 
             // txtBooks
@@ -110,38 +111,6 @@ namespace smartlibrary.view
             this.label2.TabIndex = 0;
             this.label2.Text = "All Books";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.Green;
-            this.guna2Panel3.Controls.Add(this.txtAvailable);
-            this.guna2Panel3.Controls.Add(this.label3);
-            this.guna2Panel3.Location = new System.Drawing.Point(558, 74);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(200, 144);
-            this.guna2Panel3.TabIndex = 0;
-            // 
-            // txtAvailable
-            // 
-            this.txtAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAvailable.ForeColor = System.Drawing.Color.White;
-            this.txtAvailable.Location = new System.Drawing.Point(3, 69);
-            this.txtAvailable.Name = "txtAvailable";
-            this.txtAvailable.Size = new System.Drawing.Size(197, 30);
-            this.txtAvailable.TabIndex = 1;
-            this.txtAvailable.Text = ".";
-            this.txtAvailable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(0, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(197, 30);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Available Books";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtBorrowed
             // 
@@ -170,17 +139,51 @@ namespace smartlibrary.view
             this.guna2Panel4.BackColor = System.Drawing.Color.Green;
             this.guna2Panel4.Controls.Add(this.txtBorrowed);
             this.guna2Panel4.Controls.Add(this.label5);
-            this.guna2Panel4.Location = new System.Drawing.Point(812, 74);
+            this.guna2Panel4.Location = new System.Drawing.Point(542, 243);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(200, 144);
+            this.guna2Panel4.Size = new System.Drawing.Size(212, 165);
             this.guna2Panel4.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(0, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(197, 30);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Available Books";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtAvailable
+            // 
+            this.txtAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAvailable.ForeColor = System.Drawing.Color.White;
+            this.txtAvailable.Location = new System.Drawing.Point(3, 69);
+            this.txtAvailable.Name = "txtAvailable";
+            this.txtAvailable.Size = new System.Drawing.Size(197, 30);
+            this.txtAvailable.TabIndex = 1;
+            this.txtAvailable.Text = ".";
+            this.txtAvailable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.Green;
+            this.guna2Panel3.BorderRadius = 5;
+            this.guna2Panel3.Controls.Add(this.txtAvailable);
+            this.guna2Panel3.Controls.Add(this.label3);
+            this.guna2Panel3.Location = new System.Drawing.Point(542, 38);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(212, 169);
+            this.guna2Panel3.TabIndex = 0;
+            this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             // 
             // Dashboaed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1180, 450);
+            this.ClientSize = new System.Drawing.Size(929, 450);
             this.Controls.Add(this.guna2Panel4);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
@@ -191,8 +194,8 @@ namespace smartlibrary.view
             this.Load += new System.EventHandler(this.Dashboaed_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -203,13 +206,13 @@ namespace smartlibrary.view
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label txtReader;
         private System.Windows.Forms.Label txtBooks;
-        private System.Windows.Forms.Label txtAvailable;
         private System.Windows.Forms.Label txtBorrowed;
         private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label txtAvailable;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
     }
 }

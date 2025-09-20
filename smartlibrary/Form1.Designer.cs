@@ -29,15 +29,19 @@ namespace smartlibrary
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.txtUName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.cbShowPassword = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.radiobtn = new System.Windows.Forms.RadioButton();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +49,7 @@ namespace smartlibrary
             // txtUName
             // 
             this.txtUName.AutoRoundedCorners = true;
-            this.txtUName.BorderColor = System.Drawing.Color.Black;
+            this.txtUName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.txtUName.BorderRadius = 17;
             this.txtUName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUName.DefaultText = "";
@@ -68,7 +72,7 @@ namespace smartlibrary
             // txtPassword
             // 
             this.txtPassword.AutoRoundedCorners = true;
-            this.txtPassword.BorderColor = System.Drawing.Color.Black;
+            this.txtPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.txtPassword.BorderRadius = 17;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.DefaultText = "";
@@ -97,6 +101,7 @@ namespace smartlibrary
             this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(509, 308);
@@ -115,9 +120,9 @@ namespace smartlibrary
             this.btnClear.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnClear.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnClear.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClear.FillColor = System.Drawing.Color.Red;
+            this.btnClear.FillColor = System.Drawing.Color.Yellow;
             this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.ForeColor = System.Drawing.Color.Green;
             this.btnClear.Location = new System.Drawing.Point(509, 359);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(265, 45);
@@ -144,25 +149,6 @@ namespace smartlibrary
             this.guna2CircleButton1.Text = "X";
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
-            // cbShowPassword
-            // 
-            this.cbShowPassword.AutoSize = true;
-            this.cbShowPassword.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbShowPassword.CheckedState.BorderRadius = 0;
-            this.cbShowPassword.CheckedState.BorderThickness = 0;
-            this.cbShowPassword.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbShowPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.cbShowPassword.Location = new System.Drawing.Point(595, 285);
-            this.cbShowPassword.Name = "cbShowPassword";
-            this.cbShowPassword.Size = new System.Drawing.Size(102, 17);
-            this.cbShowPassword.TabIndex = 7;
-            this.cbShowPassword.Text = "Show Password";
-            this.cbShowPassword.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.cbShowPassword.UncheckedState.BorderRadius = 0;
-            this.cbShowPassword.UncheckedState.BorderThickness = 1;
-            this.cbShowPassword.UncheckedState.FillColor = System.Drawing.Color.White;
-            this.cbShowPassword.CheckedChanged += new System.EventHandler(this.cbShowPassword_CheckedChanged);
-            // 
             // guna2MessageDialog1
             // 
             this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
@@ -185,21 +171,71 @@ namespace smartlibrary
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::smartlibrary.Properties.Resources.log;
-            this.pictureBox1.Location = new System.Drawing.Point(-144, -103);
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(179, 111);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(623, 541);
+            this.pictureBox1.Size = new System.Drawing.Size(94, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(108, 290);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(244, 25);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "The University Library";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 328);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(464, 25);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "University of Mines and Technology - SRID";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // radiobtn
+            // 
+            this.radiobtn.AutoSize = true;
+            this.radiobtn.Location = new System.Drawing.Point(405, 335);
+            this.radiobtn.Name = "radiobtn";
+            this.radiobtn.Size = new System.Drawing.Size(85, 17);
+            this.radiobtn.TabIndex = 10;
+            this.radiobtn.TabStop = true;
+            this.radiobtn.Text = "radioButton1";
+            this.radiobtn.UseVisualStyleBackColor = true;
+            this.radiobtn.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(145, 248);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 25);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Librarian Login";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(800, 432);
-            this.Controls.Add(this.cbShowPassword);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.btnClear);
@@ -220,16 +256,19 @@ namespace smartlibrary
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2TextBox txtUName;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2Button btnClear;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2CheckBox cbShowPassword;
         private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2CheckBox cbShowPassword;
+        private System.Windows.Forms.RadioButton radiobtn;
+        private System.Windows.Forms.Label label3;
     }
 }
 

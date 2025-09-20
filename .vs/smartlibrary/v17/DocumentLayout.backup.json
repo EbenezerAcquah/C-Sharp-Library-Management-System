@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|c:\\users\\user\\downloads\\librarymanagementsystem\\smartlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\dashboaed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\view\\dashboaed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\bookview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\view\\bookview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\borrowview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\view\\borrowview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\insert\\studentinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\insert\\studentinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\insert\\returnddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\insert\\returnddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\insert\\rackinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\insert\\rackinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\insert\\borrowinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\insert\\borrowinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\insert\\bookinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\insert\\bookinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\rackview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\view\\rackview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\studentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\view\\studentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\warningview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\view\\warningview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BF0DE5-4AD5-4D75-BB9C-F7403FEF3B7D}|smartlibrary\\smartlibrary.csproj|solutionrelative:smartlibrary\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Form1.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Form1.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Form1.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:46:14.109Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Form1.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Form1.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Form1.cs",
+              "RelativeToolTip": "smartlibrary\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:46:02.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\BookView.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\view\\BookView.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\BookView.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\view\\BookView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:09:53.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboaed.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\Dashboaed.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\view\\Dashboaed.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\Dashboaed.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\view\\Dashboaed.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:54:52.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentInsert.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\StudentInsert.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Insert\\StudentInsert.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\StudentInsert.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Insert\\StudentInsert.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:55:23.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Main.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Main.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Main.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:09:35.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReturndDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\ReturndDetails.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Insert\\ReturndDetails.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\ReturndDetails.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Insert\\ReturndDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:55:20.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BorrowView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\BorrowView.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\view\\BorrowView.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\BorrowView.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\view\\BorrowView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:55:01.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RackInsert.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\RackInsert.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Insert\\RackInsert.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\RackInsert.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Insert\\RackInsert.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:55:18.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BorrowInsert.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\BorrowInsert.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Insert\\BorrowInsert.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\BorrowInsert.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Insert\\BorrowInsert.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:55:15.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookInsert.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\BookInsert.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\Insert\\BookInsert.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\Insert\\BookInsert.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\Insert\\BookInsert.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:55:13.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rackview.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\Rackview.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\view\\Rackview.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\Rackview.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\view\\Rackview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:54:50.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Studentview.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\Studentview.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\view\\Studentview.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\Studentview.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\view\\Studentview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:54:45.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "warningview.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\warningview.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\view\\warningview.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\view\\warningview.cs [Design]",
+              "RelativeToolTip": "smartlibrary\\view\\warningview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:54:40.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\MainClass.cs",
+              "RelativeDocumentMoniker": "smartlibrary\\MainClass.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\LibraryManagementSystem\\smartlibrary\\MainClass.cs",
+              "RelativeToolTip": "smartlibrary\\MainClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T03:09:38.637Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
